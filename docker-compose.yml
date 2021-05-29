@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+
+  postgres_db:
+    image: postgres:11
+    ports:
+      - 7000:5432
+    environment:
+      POSTGRES_DB: patientdb
+      POSTGRES_USER: patientuser
+      POSTGRES_PASSWORD: patient
+    volumes:
+      - ./.dataPg:/var/lib/postgresql/data  
+
+  pgadmin:
+    image: dpage/pgadmin4
+    ports:
+      - 7001:80
+    depends_on:
+      - postgres_db
+    links:
+      - postgres_db:postgres_db
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
