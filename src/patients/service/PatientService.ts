@@ -1,4 +1,4 @@
-import { Injectable, Inject } from '@nestjs/common';
+import { Injectable, Inject, HttpStatus, HttpException } from '@nestjs/common';
 import { Patient } from 'src/patients/model/Patient';
 import { PatientRepository } from 'src/patients/repository/PatientRepository';
 
@@ -18,7 +18,12 @@ export class PatientService {
     const identificationValidate =
       await this.patientRepository.findByIdentification(identification);
     if (identificationValidate != undefined) {
-      throw new Error('Error, Patient already exists');
+      throw new HttpException(
+        `Error, EL paciente con identificación:${identification} ya existe`,
+        HttpStatus.INTERNAL_SERVER_ERROR,
+        
+      );
+      
     }
 
     const patient = new Patient(
