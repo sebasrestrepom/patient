@@ -26,7 +26,7 @@ This API was created with a model architecture of 3 layers
 
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1cZcQSw5atkE9CKEph0HrTsRxD64hXNv1/view?usp=sharing" width="320" alt="system model" />
+  <img src="https://drive.google.com/file/d/1cZcQSw5atkE9CKEph0HrTsRxD64hXNv1/view" width="320" alt="system model" />
 </p>
 
 
