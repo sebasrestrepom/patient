@@ -21,13 +21,13 @@ This API was created with a model architecture of 3 layers
 
 
 <p align="center">
-  <img src="https://i.postimg.cc/fLXHP3QX/image.png" width="320" alt="Patient Logo" />
+  <img src="https://ibb.co/9NGWRvM" width="320" alt="Patient Logo" />
 </p>
 
 
 
 <p align="center">
-  <img src="https://i.postimg.cc/fLXHP3QX/image.png" alt="system model" />
+  <img src="https://ibb.co/9NGWRvM" alt="system model" />
 </p>
 
 
