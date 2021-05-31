@@ -17,7 +17,7 @@ API developed in NestJS for patient management within a hospital. It allows to p
 
 
 # Installation
-## For the installations you need to first clone the repository, later you need to install the npm packages, finally you need to install docker. 
+For the installations you need to first clone the repository, later you need to install the npm packages, finally you need to install docker. 
 
 ```bash
 #Clone repository
@@ -41,7 +41,7 @@ $ sudo reboot
 ```
 
 # Running the app
-## You can run the application in development mode or in watch mode, you must also initialize docker.
+ You can run the application in development mode or in watch mode, you must also initialize docker.
 
 ```bash
 # development
@@ -55,10 +55,10 @@ $ docker-compose up
 ```
 
 # API Docs
-## For more details about methods present on this API visit:
+ For more information about methods present on this API visit:
 
 ```bash
-# copy this url on your browser
+# copy this url in your browser
 http://localhost:3000/docs/
 
 ```
