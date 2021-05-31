@@ -1,11 +1,4 @@
-import {
-  Body,
-  Controller,
-  Post,
-  Get,
-  HttpCode,
-  HttpStatus,
-} from '@nestjs/common';
+import { Body, Controller, Post, Get } from '@nestjs/common';
 import { IsNotEmpty, IsNumber, IsEmail } from 'class-validator';
 import { PatientService } from 'src/patients/service/PatientService';
 import { ApiTags, ApiOperation } from '@nestjs/swagger';
@@ -36,8 +29,8 @@ class SavePatientRequest {
 class GetAllResponse {
   id: number;
   identification: string;
-  firstName: string;
-  lastName: string;
+  firstname: string;
+  lastname: string;
   email: string;
   phone: string;
 }
@@ -77,12 +70,14 @@ export class PatientController {
       return {
         id: patient.id,
         identification: patient.identification,
-        firstName: patient.firstName,
-        lastName: patient.lastName,
+        firstname: patient.firstName,
+        lastname: patient.lastName,
         email: patient.email,
         phone: patient.phone,
       };
     });
+    console.log('hola');
+    console.log(response);
     return response;
   }
 }

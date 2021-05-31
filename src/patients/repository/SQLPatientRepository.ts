@@ -59,12 +59,15 @@ export class SQLPatientRepository implements PatientRepository {
         new Patient(
           row.id,
           row.identification,
-          row.firstName,
-          row.lastName,
+          row.firstname,
+          row.lastname,
           row.email,
           row.phone,
         ),
+        
     );
+    console.log(result);
+    
     return Promise.resolve(result);
   }
 }
