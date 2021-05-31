@@ -19,15 +19,15 @@ API developed in NestJS for patient management within a hospital. It allows to p
 This API was created with a model architecture of 3 layers
 
 
-
+##Architecture diagram
 <p align="center">
-  <img src="https://i.ibb.co/G0FRgJh/arquitectura.png" width="320" alt="Patient Logo" />
+  <img src="https://i.ibb.co/G0FRgJh/arquitectura.png"  alt="Architecture diagram" />
 </p>
 
 
-
+##System model
 <p align="center">
-  <img src="https://i.ibb.co/G0FRgJh/arquitectura.png" alt="system model" />
+  <img src="https://i.ibb.co/Yk0N8tp/DATABASE.png" alt="system model" />
 </p>
 
 
