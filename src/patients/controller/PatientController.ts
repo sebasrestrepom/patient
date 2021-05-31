@@ -1,6 +1,7 @@
 import { Body, Controller, Post, Get, HttpCode, HttpStatus } from '@nestjs/common';
 import { IsNotEmpty, IsNumber, IsEmail } from 'class-validator';
 import { PatientService } from 'src/patients/service/PatientService';
+import { ApiTags, ApiOperation } from '@nestjs/swagger';
 
 
 class SavePatientResponse {
@@ -34,12 +35,13 @@ class GetAllResponse {
   email: string;
   phone: string;
 }
-
+@ApiTags('patients')
 @Controller()
 export class PatientController {
   constructor(private patientService: PatientService) {}
 
   @Post('patients/new-patient')
+  @ApiOperation({ summary: 'Creación de un nuevo paciente' })
   async savePatient(
     @Body() request: SavePatientRequest,
   ): Promise<SavePatientResponse> {
@@ -61,6 +63,7 @@ export class PatientController {
   }
 
   @Get('patients/get-all')
+  @ApiOperation({ summary: 'Lista de todos los pacientes registrados' })
   async getAll(): Promise<GetAllResponse[]> {
     const patients = await this.patientService.getAll();
 

@@ -11,7 +11,6 @@ async function bootstrap() {
     .setTitle('Patients')
     .setDescription('API Get & Post Patients')
     .setVersion('1.0')
-    .addTag('patient')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('docs', app, document);
