@@ -19,7 +19,11 @@ API developed in NestJS for patient management within a hospital. It allows to p
 ## Installation
 
 ```bash
+#Clone repository
+$ git clone https://github.com/sebasrestrepomo/patient.git
+#install npm package
 $ npm install
+
 ```
 
 ## Running the app
@@ -31,21 +35,15 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
 ```
 
 ## Test
 
 ```bash
-# unit tests
-$ npm run test
 
 # e2e tests
 $ npm run test:e2e
 
-# test coverage
-$ npm run test:cov
 ```
 
 ## Support
