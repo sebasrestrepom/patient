@@ -55,7 +55,15 @@ export class SQLPatientRepository implements PatientRepository {
       `SELECT id, identification, firstName, lastName, email, phone FROM patient`,
     );
     const result = rows.map(
-      (row) => new Patient(row.id, row.identification, row.firstName, row.lastName, row.email, row.phone),
+      (row) =>
+        new Patient(
+          row.id,
+          row.identification,
+          row.firstName,
+          row.lastName,
+          row.email,
+          row.phone,
+        ),
     );
     return Promise.resolve(result);
   }

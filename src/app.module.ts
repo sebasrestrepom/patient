@@ -11,10 +11,7 @@ import { PatientService } from './patients/service/PatientService';
       ...ormconfig,
     }),
   ],
-  controllers: [
-   
-    PatientController,
-  ],
+  controllers: [PatientController],
   providers: [
     { provide: 'PatientRepository', useClass: SQLPatientRepository },
     PatientService,

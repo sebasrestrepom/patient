@@ -1,8 +1,14 @@
-import { Body, Controller, Post, Get, HttpCode, HttpStatus } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Post,
+  Get,
+  HttpCode,
+  HttpStatus,
+} from '@nestjs/common';
 import { IsNotEmpty, IsNumber, IsEmail } from 'class-validator';
 import { PatientService } from 'src/patients/service/PatientService';
 import { ApiTags, ApiOperation } from '@nestjs/swagger';
-
 
 class SavePatientResponse {
   id: number;
