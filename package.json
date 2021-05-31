@@ -1,10 +1,11 @@
 {
-  "name": "guideapp",
+  "name": "patient",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "sebasrestrepomo",
   "private": true,
   "license": "UNLICENSED",
+ 
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
@@ -81,5 +82,9 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "engines": {
+    "node": "10.x"
   }
+  
 }
