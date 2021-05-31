@@ -29,7 +29,7 @@ Next we will see an image that represents the model that the system executes, in
 ## Architecture diagram
 This API was developed under a 3 layer architecture model, where the controller, the service and the repository intervene
 <p align="center">
-  <img src="https://i.ibb.co/Yk0N8tp/DATABASE.png" alt="system model" />
+  <img src="https://i.ibb.co/09tpcdq/Imagen2.png" alt="system model" />
 </p>
 
 
