@@ -1,7 +1,7 @@
 import { Body, Controller, Post, Get, HttpCode, HttpStatus } from '@nestjs/common';
-import  {  useContainer ,  Validator  }  from  'class-validator' ;
 import { IsNotEmpty, IsNumber, IsEmail } from 'class-validator';
 import { PatientService } from 'src/patients/service/PatientService';
+
 
 class SavePatientResponse {
   id: number;

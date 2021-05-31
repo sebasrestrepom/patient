@@ -1,8 +1,8 @@
 version: '3.7'
 
 services:
-
-  postgres_db:
+ 
+  app_system:
     image: postgres:11
     ports:
       - 7000:5432
@@ -18,9 +18,9 @@ services:
     ports:
       - 7001:80
     depends_on:
-      - postgres_db
+      - app_system
     links:
-      - postgres_db:postgres_db
+      - app_system:patient_app
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: admin

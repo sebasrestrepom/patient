@@ -21,11 +21,13 @@ export class PatientService {
       throw new HttpException(
         `Error, EL paciente con identificación:${identification} ya existe`,
         HttpStatus.INTERNAL_SERVER_ERROR,
-        
       );
       
     }
-
+    /*if(readError){
+      throw new Error('Error, Patient already exists!')
+    }*/
+      
     const patient = new Patient(
       undefined,
       identification,

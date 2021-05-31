@@ -17,7 +17,6 @@ import { PatientService } from './patients/service/PatientService';
   ],
   providers: [
     { provide: 'PatientRepository', useClass: SQLPatientRepository },
-   
     PatientService,
   ],
   exports: [],
