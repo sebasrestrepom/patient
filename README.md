@@ -20,7 +20,7 @@ This API was created with a model architecture of 3 layers
 
 
 <p align="center">
-  <img src="https://postimg.cc/Q98k9dtx" width="320" alt="Architecture diagram patient system" />
+  [![image.png](https://i.postimg.cc/fLXHP3QX/image.png)](https://postimg.cc/Q98k9dtx)
 </p>
 
 
