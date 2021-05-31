@@ -19,8 +19,9 @@ API developed in NestJS for patient management within a hospital. It allows to p
 This API was created with a model architecture of 3 layers
 
 
+
 <p align="center">
-  [![image.png](https://i.postimg.cc/fLXHP3QX/image.png)](https://postimg.cc/Q98k9dtx)
+  <img src="https://i.postimg.cc/fLXHP3QX/image.png" width="320" alt="Patient Logo" />
 </p>
 
 
