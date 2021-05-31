@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://www.google.com/search?q=Patient+logo&sxsrf=ALeKk02FL3k1Vy69wvE4UKgybSdgPFO40w:1622435674491&source=lnms&tbm=isch&sa=X&ved=2ahUKEwju0bHwi_PwAhWDTTABHX3hB8sQ_AUoAXoECAIQAw&biw=1294&bih=637#imgrc=ymZ16llLv1JYlM" width="320" alt="Patient Logo" />
+  <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F51%2FPatient_logo_2019.svg%2F1200px-Patient_logo_2019.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3APatient_logo_2019.svg&tbnid=ymZ16llLv1JYlM&vet=12ahUKEwiex7zxi_PwAhXplIQIHW5kAXoQMygAegUIARC8AQ..i&docid=mrDGM94BF2eU5M&w=1200&h=385&q=Patient%20logo&ved=2ahUKEwiex7zxi_PwAhXplIQIHW5kAXoQMygAegUIARC8AQ" width="320" alt="Patient Logo" />
 </p>
 
-[circleci-image]: https://www.google.com/search?q=Patient+logo&sxsrf=ALeKk02FL3k1Vy69wvE4UKgybSdgPFO40w:1622435674491&source=lnms&tbm=isch&sa=X&ved=2ahUKEwju0bHwi_PwAhWDTTABHX3hB8sQ_AUoAXoECAIQAw&biw=1294&bih=637#imgrc=ymZ16llLv1JYlM
-[circleci-url]: https://www.google.com/search?q=Patient+logo&sxsrf=ALeKk02FL3k1Vy69wvE4UKgybSdgPFO40w:1622435674491&source=lnms&tbm=isch&sa=X&ved=2ahUKEwju0bHwi_PwAhWDTTABHX3hB8sQ_AUoAXoECAIQAw&biw=1294&bih=637#imgrc=ymZ16llLv1JYlM
+[circleci-image]: https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F51%2FPatient_logo_2019.svg%2F1200px-Patient_logo_2019.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3APatient_logo_2019.svg&tbnid=ymZ16llLv1JYlM&vet=12ahUKEwiex7zxi_PwAhXplIQIHW5kAXoQMygAegUIARC8AQ..i&docid=mrDGM94BF2eU5M&w=1200&h=385&q=Patient%20logo&ved=2ahUKEwiex7zxi_PwAhXplIQIHW5kAXoQMygAegUIARC8AQ
+[circleci-url]: https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F51%2FPatient_logo_2019.svg%2F1200px-Patient_logo_2019.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3APatient_logo_2019.svg&tbnid=ymZ16llLv1JYlM&vet=12ahUKEwiex7zxi_PwAhXplIQIHW5kAXoQMygAegUIARC8AQ..i&docid=mrDGM94BF2eU5M&w=1200&h=385&q=Patient%20logo&ved=2ahUKEwiex7zxi_PwAhXplIQIHW5kAXoQMygAegUIARC8AQ
 
   <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
     <p align="center">
