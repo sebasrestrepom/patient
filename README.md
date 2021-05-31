@@ -11,7 +11,7 @@
 </p>
 
 
-## Description
+# Description
 
 API developed in NestJS for patient management within a hospital. It allows to post new patients and get a list of all those who are registered.
 
@@ -63,7 +63,7 @@ http://localhost:3000/docs/
 
 ```
 
-## Test
+# Test
 
 ```bash
 
@@ -72,16 +72,5 @@ $ npm run test:e2e
 
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+#🐞 Did you find some issue o improvment?
+Feel free to contribute and do whatever to consider better to this project.
