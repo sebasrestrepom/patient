@@ -19,13 +19,15 @@ API developed in NestJS for patient management within a hospital. It allows to p
 This API was created with a model architecture of 3 layers
 
 
-##Architecture diagram
+## System model
+Next we will see an image that represents the model that the system executes, in order to understand its behavior
 <p align="center">
   <img src="https://i.ibb.co/G0FRgJh/arquitectura.png"  alt="Architecture diagram" />
 </p>
 
 
-##System model
+## Architecture diagram
+This API was developed under a 3 layer architecture model, where the controller, the service and the repository intervene
 <p align="center">
   <img src="https://i.ibb.co/Yk0N8tp/DATABASE.png" alt="system model" />
 </p>
