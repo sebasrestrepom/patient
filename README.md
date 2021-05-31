@@ -16,6 +16,23 @@
 API developed in NestJS for patient management within a hospital. It allows to post new patients and get a list of all those who are registered.
 
 
+This API was created with a model architecture of 3 layers
+
+
+<p align="center">
+  <img src="https://drive.google.com/file/d/1sBBLbslCS0Fm_mnsT_35tY_X1rrRdEYO/view?usp=sharing" width="320" alt="Architecture diagram patient system" />
+</p>
+
+
+
+<p align="center">
+  <img src="https://drive.google.com/file/d/1cZcQSw5atkE9CKEph0HrTsRxD64hXNv1/view?usp=sharing" width="320" alt="system model" />
+</p>
+
+
+
+
+
 # Installation
 For the installations you need to first clone the repository, later you need to install the npm packages, finally you need to install docker. 
 
