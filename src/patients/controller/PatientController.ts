@@ -76,8 +76,7 @@ export class PatientController {
         phone: patient.phone,
       };
     });
-    console.log('hola');
-    console.log(response);
+
     return response;
   }
 }

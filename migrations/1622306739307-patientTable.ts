@@ -7,10 +7,9 @@ export class patientsTable1622266644851 implements MigrationInterface {
           id SERIAL PRIMARY KEY NOT NULL,identification varchar(20) NOT NULL,firstName varchar(255) NOT NULL, lastName varchar(255) NOT NULL, email varchar(255) NOT NULL, phone varchar(20))
       `);
 
-    await queryRunner.query(`ALTER SEQUENCE patient_id_seq RESTART WITH 1`);
 
     await queryRunner.query(`ALTER TABLE patient
-        ADD CONSTRAINT UQ_patient_identification UNIQUE (identification)
+        ADD CONSTRAINT patient_identification_uq UNIQUE (identification)
         `);
 
     await queryRunner.query(

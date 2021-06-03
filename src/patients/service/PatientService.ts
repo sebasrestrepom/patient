@@ -23,9 +23,6 @@ export class PatientService {
         HttpStatus.INTERNAL_SERVER_ERROR,
       );
     }
-    /*if(readError){
-      throw new Error('Error, Patient already exists!')
-    }*/
 
     const patient = new Patient(
       undefined,
