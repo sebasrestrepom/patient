@@ -1,4 +1,4 @@
-import { Patient } from 'src/patients/model/Patient';
+import { Patient } from 'src/core/domain/patient/Patient';
 
 export interface PatientRepository {
   save(patient: Patient): Promise<Patient>;

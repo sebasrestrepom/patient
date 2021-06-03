@@ -1,5 +1,5 @@
-import { Patient } from 'src/patients/model/Patient';
-import { PatientRepository } from './PatientRepository';
+import { Patient } from 'src/core/domain/patient/Patient';
+import { PatientRepository } from '../../core/domain/patient/PatientRepository';
 
 export class InMemoryPatientRepository implements PatientRepository {
   private _database = new Map<string, Patient>();

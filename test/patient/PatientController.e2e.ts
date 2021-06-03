@@ -1,11 +1,11 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
-import { PatientRepository } from 'src/patients/repository/PatientRepository';
+import { PatientRepository } from 'src/core/domain/patient/PatientRepository';
 import { InMemoryPatientRepository } from 'src/patients/repository/InMemoryPatientRepository';
-import { PatientController } from 'src/patients/controller/PatientController';
-import { PatientService } from 'src/patients/service/PatientService';
-import { Patient } from 'src/patients/model/Patient';
+import { PatientController } from 'src/http/controller/patient/save-a-new-patient/SaveANewPatientController';
+import { PatientService } from 'src/core/application/patient/PatientService';
+import { Patient } from 'src/core/domain/patient/Patient';
 
 describe('PatientController (e2e)', () => {
   let app: INestApplication;

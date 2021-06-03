@@ -1,7 +1,7 @@
 import { InjectEntityManager } from '@nestjs/typeorm';
-import { Patient } from 'src/patients/model/Patient';
+import { Patient } from 'src/core/domain/patient/Patient';
 import { EntityManager } from 'typeorm';
-import { PatientRepository } from './PatientRepository';
+import { PatientRepository } from '../../domain/patient/PatientRepository';
 
 export class SQLPatientRepository implements PatientRepository {
   constructor(@InjectEntityManager() private manager: EntityManager) {}
