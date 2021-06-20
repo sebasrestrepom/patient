@@ -1,5 +1,4 @@
-import { Body, Controller, Post, Get } from '@nestjs/common';
-import { IsNotEmpty, IsNumber, IsEmail } from 'class-validator';
+import { Controller, Get } from '@nestjs/common';
 import { ApiTags, ApiOperation } from '@nestjs/swagger';
 import { GetAllPatient } from 'src/core/use_cases/patient/GetAllPatient';
 import { GetAllPatientResponse } from './GetAllPatientResponse';

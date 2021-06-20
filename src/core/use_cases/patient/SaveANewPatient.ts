@@ -16,7 +16,7 @@ export class SaveANewPatient {
     phone: string,
   ): Promise<Patient> {
     this.ensureIdentificationDontExist(identification);
-    
+
     const patient = new Patient(
       undefined,
       identification,
@@ -25,10 +25,10 @@ export class SaveANewPatient {
       email,
       phone,
     );
-    
+
     return this.patientRepository.save(patient);
   }
-  
+
   private async ensureIdentificationDontExist(identification) {
     const identificationValidate =
       await this.patientRepository.findByIdentification(identification);

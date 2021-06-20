@@ -64,10 +64,9 @@ export class SQLPatientRepository implements PatientRepository {
           row.email,
           row.phone,
         ),
-        
     );
     console.log(result);
-    
+
     return Promise.resolve(result);
   }
 }

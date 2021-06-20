@@ -1,4 +1,4 @@
-import { Body, Controller, Post, Get } from '@nestjs/common';
+import { Body, Controller, Post } from '@nestjs/common';
 import { ApiTags, ApiOperation } from '@nestjs/swagger';
 import { SaveANewPatient } from 'src/core/use_cases/patient/SaveANewPatient';
 import { SaveANewPatientRequest } from './SaveANewPatientRequest';

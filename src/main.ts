@@ -1,8 +1,9 @@
+/* eslint @typescript-eslint/no-var-requires: "off" */
 require('dotenv').config();
 import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
-import { AppModule } from './app.module';
+import { AppModule } from './http/app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
