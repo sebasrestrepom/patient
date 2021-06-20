@@ -19,6 +19,7 @@ API developed in NestJS for patient management within a hospital. It allows to p
 This API was created with a model architecture of 3 layers
 
 
+
 ## System model
 Next we will see an image that represents the model that the system executes, in order to understand its behavior
 <p align="center">
