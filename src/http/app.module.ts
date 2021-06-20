@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import * as ormconfig from '../ormconfig';
-import { PatientController } from './http/controller/patient/save-a-new-patient/SaveANewPatientController';
-import { SQLPatientRepository } from './core/infrastructure/patient/SQLPatientRepository';
-import { PatientService } from './core/use_cases/patient/SaveANewPatient';
+import { SaveANewPatientController } from 'src/http/controller/patient/save-a-new-patient/SaveANewPatientController';
+import { SQLPatientRepository } from 'src/core/infrastructure/patient/SQLPatientRepository';
+import { SaveANewPatient } from 'src/core/use_cases/patient/SaveANewPatient';
 
 @Module({
   imports: [
@@ -11,10 +11,10 @@ import { PatientService } from './core/use_cases/patient/SaveANewPatient';
       ...ormconfig,
     }),
   ],
-  controllers: [PatientController],
+  controllers: [SaveANewPatientController],
   providers: [
     { provide: 'PatientRepository', useClass: SQLPatientRepository },
-    PatientService,
+    SaveANewPatient,
   ],
   exports: [],
 })

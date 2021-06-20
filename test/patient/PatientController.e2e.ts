@@ -2,7 +2,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
 import { PatientRepository } from 'src/core/domain/patient/PatientRepository';
-import { InMemoryPatientRepository } from 'src/patients/repository/InMemoryPatientRepository';
+import { InMemoryPatientRepository } from 'src/core/infrastructure/patient/InMemoryPatientRepository';
 import { PatientController } from 'src/http/controller/patient/save-a-new-patient/SaveANewPatientController';
 import { PatientService } from 'src/core/application/patient/PatientService';
 import { Patient } from 'src/core/domain/patient/Patient';
