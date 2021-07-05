@@ -17,7 +17,7 @@ To obtain the data, we make a Get-type request to the following URL https://rest
 Next we will see a model of the system architecture
 
 <p align="center">
-  <img src="https://i.ibb.co/NLCJbQV/diagram.png" width="200" alt="system model" />
+  <img src="https://i.ibb.co/NLCJbQV/diagram.png" width="150" alt="system model" />
 </p>
 
 ## ERM
