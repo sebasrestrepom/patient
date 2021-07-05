@@ -16,14 +16,6 @@ jobs:
         run: npm run lint 
       - name: Run Build
         run: npm run build
-      - name: Run Migrations
-        run: npm run migration:run
-        env:
-          DATABASE_USERNAME: patientuser
-          DATABASE_PASSWORD: patient
-          DATABASE_HOST: 127.0.0.1
-          DATABASE_PORT: 5432
-          DATABASE_NAME: patientdb
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
