@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/PcjR0NB/a201b38.png" width="220" alt="Search a Countries Logo" />
+  <img src="https://i.ibb.co/PcjR0NB/a201b38.png" width="250" alt="Search a Countries Logo" />
 </p>
 
   <p align="center">API developed for the search a countries</p>
@@ -10,26 +10,14 @@
 
 API developed at NodeJs to search a countries. Allows filter countries by region and by population, you can also indicate the number of fields you want to see per page and organize the information in ascending or descending order
 
-To obtain the data, we make a Get-type request to the following URL https://restcountries.eu/rest/v2/all 
-
-You can see the documentation at https://restcountries.eu/ 
-
-This API was created with a model architecture of 3 layers
-
-## System model
-
-Next we will see an image that represents the model that the system executes, in order to understand its behavior
-
-<p align="center">
-  <img src="https://kroki.io/c4plantuml/svg/eNqVVNtu2zAMffdXcHlKAbfFgH1A0yboBU3i1SmKPRm0zcRCZcmT5HjBsH8fZcdJnAFFl5dINHl4eHSkG-vQuLqUwRehMlnnBHffkjutHApF5qryn4LnyY_l6ypZLaNkunxbjC_6yNvj6iF5nt3PFlMOBk44STAxWSEcZa42BFOBG4MlrLWB-1rkNKkqiHfWURkEERmr1RjzUqgQJt3faKKgjQjrDDqucxoKVDlDu4LAtsXAAdgKasBQpY2zV6OLHs86nkO5EOJ-MZrAPgh6DQg2K7SWDIcOGuQot3hXuoFCWMD1mpu7HTTCFWB1SZChIcbmFkHHPbnVtcrR7MbZV4Y_m2x0Ab8D4N9ByLGtkPNioTaSLiPcsExVNeLQaldRnBlRuesn3GK3DOGFMHP-e2T0lsGZlpTt_OtaZU5ohVI4wXGmvp_NtqIMtLOsEfoyYaChFFKjG0uGBxnSK3UqJCVYVdxy3m4-QxAW6MSWhjxBipLPPwdbp5ZaxT_ifCTYkYCctiKjc4rTdJyjwxQtcbfpfuk7x9-fYbDnublHzXOyOTatFNwbhGITluh5hGwoywyx5hPODHkmAqUN4WdN1md0WjJOLZ39R64Us3dSOeslvLmiRy-WFFkL_oFoCwZ_ikOYaq43R8CBgAcznaq2a3XiTszlz8GFs19uTCUKmXS3gmFml3Pe90b0cngDx_NVBDGZbXv2QfBCsr92nTNfLVmf_bBaRTGn-ITDPfpEysBAbaZv0-X46qFiPRTancpCeIqXi-tT2FO0_6pMbjk7WZDYFKk2J44ZorB5cwtro7t3pDHsV-9Kj9wBL1_mfoIe8jjomdwxg1qgSx9tEY40zk5myGBYV1t-GI7N_Wkx0A3n8Pv7F94p6Ao="  alt="Architecture diagram" />
-</p>
+To obtain the data, we make a Get-type request to the following URL https://restcountries.eu/rest/v2/all  you can see the documentation at https://restcountries.eu/ 
 
 ## Architecture diagram
 
-This API was developed under a 3 layer architecture model, where the controller, the service and the repository intervene
+Next we will see a model of the system architecture
 
 <p align="center">
-  <img src="https://kroki.io/c4plantuml/svg/eNp9VNtu2zAMffdXcHkYUiBrXvYBzZKuTdG1XZJi2FMgy0zCVZY8iXZmDPv3UXIudQfML5Z5O-Thka8CK891abJ3ZLWpC4Tpx_XUlZWzaPmyiq7sfvL98Xm1_jZf3a7vr2-uH2bDiyxjYoMw8XpHjJprjzAjtfWqhI3zcFNTgZOqgmUbGEv4AJOnOYjBkFZMzmbZ1FlWZNEPN16OaIsRDD4fjjE0DMSwaitcak8Vj-9Uo7rjCBaoNIOSwO70IEUbjAlP3jWCHUAZA7xD2NRWR0RliEns7CCwzGo5pAKqKMlSYK_Y-QANqZhGHvaYQ-7dPqC_HFyc-53lwyIXpJlilauQUBdoVAcCRzMs9Q5LFb1LqSzItVQCj9sEJsFAVrgqU-IIdpIj3dS8A-0x9kfKhBH8rDHEiK5bqVMbDtLPuaH1J1fbQvl2qCoSuDdUDy7gdwbynDY71JLqnTHoJXx6-ugmCQx90y2FiCu5gXISGlugxKOUadAzyAJL-BFkIjHGxhPRsd3kOVnEG6MuYW6F9oJid9FItnEvZLdpX9r5DqyIFqGsIY1xAf0RDo7IbnfqqwWmRoXw3-7xF-qa8SSUvA7CZghg3Jb0v4geKxdIVtkmmo4fb3Dnol-_URrHpw7mDNVRlRHIohYY2VdPm23syaMqQO5PKYuNy03xr2QCB1NxEJlQyXEc7crSWdPCi3V7IbcDqtAHERtajWBU2-lYZkqDiWR7OjgT-hwwHKaPQSdHj4A3Qa996XYs4iTvYe_l_yCTpWvw9X78uPgiWX-yLCadL35PkKm0vO-Wjw_j29XqaRnlfiWB8Yf0F3gloDc=" width="420" alt="system model" />
+  <img src="https://i.ibb.co/NLCJbQV/diagram.png" width="420" alt="system model" />
 </p>
 
 ## ERM
