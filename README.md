@@ -1,14 +1,18 @@
 <p align="center">
-  <img src="https://scontent.feoh3-1.fna.fbcdn.net/v/t1.18169-9/13244618_1191351854216607_5588934200320456613_n.png?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=EMLcUY6DEbwAX_ZhCUQ&_nc_oc=AQlVtD564QsOau9uqgdIpoIKSYHBSajlb_Qc3wppR8HsLmLk40ZNIXLULganD3X0tew&_nc_ht=scontent.feoh3-1.fna&oh=13733fd21097914a10752175056765d9&oe=60DF17AC" width="220" alt="GuideApp Logo" />
+  <img src="https://i.ibb.co/PcjR0NB/a201b38.png" width="220" alt="Search a Countries Logo" />
 </p>
 
-  <p align="center">Developed at <a href="https://nestjs.com/" target="_blank">NestJs.</a> framework for building efficient and scalable server-side applications.</p>
+  <p align="center">API developed for the search a countries</p>
 
 </p>
 
 # Description
 
-API developed at NestJS to provide vocational guidance to students who don't know what to study. Allows you to register a student to take the CHASIDE vocational guidance test and know the career that is according to your interests and abilities
+API developed at NodeJs to search a countries. Allows filter countries by region and by population, you can also indicate the number of fields you want to see per page and organize the information in ascending or descending order
+
+To obtain the data, we make a Get-type request to the following URL https://restcountries.eu/rest/v2/all 
+
+You can see the documentation at https://restcountries.eu/ 
 
 This API was created with a model architecture of 3 layers
 
