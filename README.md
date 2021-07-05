@@ -57,26 +57,26 @@ http://localhost:4000/docs/
 ```
 ### You can also test the application endpoints remotely at the following url: https://searchcountries2.herokuapp.com/docs/ 
 
-In the following image we will see a screenshot of the methods that we will find in Swagger
+In the following image we will see a screenshot of the method that we will find in Swagger
 
 <p align="center">
-  <img src="https://i.ibb.co/ZVwMyzP/methods.png" width="800"  alt="Methods of Api" />
+  <img src="https://i.ibb.co/r3RKVkx/swagger1.png" width="800"  alt="Method of Api" />
 </p>
 
-You can also see an example of the process to use a method of type post
+You can also see an example of the process to use a method of type get where the query parameters are used
 
 <p align="center">
-  <img src="https://i.ibb.co/JHKQDRj/Post-a-new-School.png" width="800"  alt="Example Method Post" />
+  <img src="https://i.ibb.co/T1xNfXF/swagger2.png" width="800"  alt="Example Method Get" />
 </p>
 
 # Test
 
-You can test all the methods contained in this API, for this you must run the following command
+You can test all functionalities contained in this API, for this you must run the following command
 
 ```bash
 
-# e2e tests
-$ npm run test:e2e
+# tests
+$ npm run test
 
 ```
 
