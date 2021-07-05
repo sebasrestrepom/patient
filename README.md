@@ -55,15 +55,15 @@ For more information about methods present on this API visit:
 http://localhost:4000/docs/
 
 ```
-Además puedes probar los endpoints de la aplicación de manera remota en la siguiente url: https://searchcountries2.herokuapp.com/docs/
+### You can also test the application endpoints remotely at the following url: https://searchcountries2.herokuapp.com/docs/ 
 
-### In the following image we will see a screenshot of the methods that we will find in Swagger
+In the following image we will see a screenshot of the methods that we will find in Swagger
 
 <p align="center">
   <img src="https://i.ibb.co/ZVwMyzP/methods.png" width="800"  alt="Methods of Api" />
 </p>
 
-### You can also see an example of the process to use a method of type post
+You can also see an example of the process to use a method of type post
 
 <p align="center">
   <img src="https://i.ibb.co/JHKQDRj/Post-a-new-School.png" width="800"  alt="Example Method Post" />
