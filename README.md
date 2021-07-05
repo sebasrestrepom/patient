@@ -1,5 +1,5 @@
+<h1 align="center">Search a countries</h1>
 <p align="center">
-  <h1>Search a countries</h1>
   <img src="https://i.ibb.co/PcjR0NB/a201b38.png" width="300" alt="Search a Countries Logo" />
 </p>
 
