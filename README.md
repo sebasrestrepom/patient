@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/PcjR0NB/a201b38.png" width="250" alt="Search a Countries Logo" />
+  <img src="https://i.ibb.co/PcjR0NB/a201b38.png" width="300" alt="Search a Countries Logo" />
 </p>
 
   <p align="center">API developed for the search a countries</p>
@@ -17,7 +17,7 @@ To obtain the data, we make a Get-type request to the following URL https://rest
 Next we will see a model of the system architecture
 
 <p align="center">
-  <img src="https://i.ibb.co/NLCJbQV/diagram.png" width="420" alt="system model" />
+  <img src="https://i.ibb.co/NLCJbQV/diagram.png" width="300" alt="system model" />
 </p>
 
 ## ERM
